@@ -1,0 +1,8 @@
+C:\Users\Alumno\Desktop\ejecutable\App2.dll
+C:\Users\Alumno\Desktop\ejecutable\App2.deps.json
+C:\Users\Alumno\Desktop\ejecutable\App2.pdb
+C:\Users\Alumno\Desktop\ejecutable\System.Numerics.Vectors.dll
+C:\Users\Alumno\Desktop\ejecutable\Xamarin.Essentials.dll
+C:\Users\Alumno\Desktop\ejecutable\Xamarin.Forms.Core.dll
+C:\Users\Alumno\Desktop\ejecutable\Xamarin.Forms.Platform.dll
+C:\Users\Alumno\Desktop\ejecutable\Xamarin.Forms.Xaml.dll

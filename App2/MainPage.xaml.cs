@@ -10,6 +10,7 @@ namespace App2
             InitializeComponent();
         }
 
+
         private void ConvertButton_Clicked(object sender, EventArgs e)
         {
             if (!string.IsNullOrEmpty(kgEntry.Text))

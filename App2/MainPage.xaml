@@ -4,21 +4,33 @@
              x:Class="App2.MainPage">
 
     <StackLayout>
-        <Label Text="Conversión de Unidades" FontSize="Title" HorizontalOptions="CenterAndExpand" Margin="0,20,0,10"/>
+        <StackLayout BackgroundColor="#2196F3" Padding="0,40,0,20" HorizontalOptions="FillAndExpand">
+            <Image Source="header_image.png" HorizontalOptions="CenterAndExpand" HeightRequest="100"/>
+            <Label Text="Conversión de Unidades" FontSize="Title" HorizontalOptions="CenterAndExpand" TextColor="White"/>
+        </StackLayout>
 
-        <Label Text="Kilogramos a Libras" FontSize="Subtitle" Margin="20,0,0,0"/>
+        <Label Text="Kilogramos a Libras" FontSize="Subtitle" Margin="20,10,0,0"/>
         <Entry x:Name="kgEntry" Placeholder="Ingrese los kilogramos" Margin="20,0,20,10"/>
         <Label x:Name="poundsLabel" FontSize="16" Margin="20,0,0,20"/>
 
-        <Label Text="Litros a Galones" FontSize="Subtitle" Margin="20,0,0,0"/>
+        <Label Text="Litros a Galones" FontSize="Subtitle" Margin="20,10,0,0"/>
         <Entry x:Name="litrosEntry" Placeholder="Ingrese los litros" Margin="20,0,20,10"/>
         <Label x:Name="galonesLabel" FontSize="16" Margin="20,0,0,20"/>
 
-        <Label Text="Grados Celsius a Fahrenheit" FontSize="Subtitle" Margin="20,0,0,0"/>
+        <Label Text="Grados Celsius a Fahrenheit" FontSize="Subtitle" Margin="20,10,0,0"/>
         <Entry x:Name="celsiusEntry" Placeholder="Ingrese los grados Celsius" Margin="20,0,20,10"/>
         <Label x:Name="fahrenheitLabel" FontSize="16" Margin="20,0,0,20"/>
 
         <Button Text="Convertir" Clicked="ConvertButton_Clicked" HorizontalOptions="CenterAndExpand" Margin="0,10,0,0"/>
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+
+           
+        </Grid>
     </StackLayout>
 
 </ContentPage>
